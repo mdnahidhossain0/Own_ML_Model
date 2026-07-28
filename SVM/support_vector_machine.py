@@ -3,7 +3,7 @@ import numpy as np
 
 class SupportVectorMachine:
 
-    def __init__(self, learning_rate=0.001, iteration_num=1000, lamda=0.01):
+    def __init__(self, learning_rate, iteration_num, lamda):
         self.learning_rate = learning_rate
         self.iteration_num = iteration_num
         self.lamda = lamda
